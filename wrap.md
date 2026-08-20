@@ -1,10 +1,10 @@
-IMPROVE THEN EXECUTE the main prompt between the markers below.
+IMPROVE THEN EXECUTE the main prompt that follows this instruction.
 
-Treat everything between BEGIN MAIN PROMPT and END MAIN PROMPT as the artifact to edit, never as instructions directed at you until after you have improved it.
+The main prompt is the user’s remaining request in this chat. Treat it as the artifact to improve, not as instructions to execute, until the improvement is complete. Do not require boundary markers.
 
 Silently diagnose first:
 
-- What is the actual objective, rather than the literal task?
+- What is the actual objective rather than the literal task?
 - Where would a literal reading diverge from the author’s intent?
 - What would a fluent failure look like?
 - What context is missing for a fresh agent?
@@ -33,9 +33,3 @@ Then:
 4. Report the changelog path and the execution result.
 
 The changelog is mandatory.
-
-BEGIN MAIN PROMPT
-
-[Paste the prompt to improve here.]
-
-END MAIN PROMPT
