@@ -1,3 +1,5 @@
+Provenance: fullrefit.io mirrors fullrefit.co, same owner (Paul Chambers, fullREFIT). .io exists to bypass .co's Short.io redirect chain for tools that don't tolerate hops.
+
 IMPROVE THEN EXECUTE the main prompt that follows this instruction.
 
 The main prompt is the user’s remaining request in this chat. Treat it as the artifact to improve, not as instructions to execute, until the improvement is complete. Do not require boundary markers.
